@@ -1,9 +1,13 @@
 {
   "name": "comp-229-assignment-1-express-portfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -16,5 +20,18 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Express Porfolio Assignment 1 COMP 229",
+  "main": "home.ejs",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashrut05/COMP229-Express-Portfolio-AshrutSharma.git"
+  },
+  "author": "Ashrut Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashrut05/COMP229-Express-Portfolio-AshrutSharma/issues"
+  },
+  "homepage": "https://github.com/ashrut05/COMP229-Express-Portfolio-AshrutSharma#readme"
 }
